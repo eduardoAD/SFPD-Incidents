@@ -13,9 +13,52 @@
 		E4B8F3A31C291BD000F54E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B8F3A11C291BD000F54E0B /* Main.storyboard */; };
 		E4B8F3A51C291BD000F54E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B8F3A41C291BD000F54E0B /* Assets.xcassets */; };
 		E4B8F3A81C291BD000F54E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B8F3A61C291BD000F54E0B /* LaunchScreen.storyboard */; };
+		E4B8F3F51C291C7D00F54E0B /* SODADocument.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3B21C291C7D00F54E0B /* SODADocument.m */; };
+		E4B8F3F61C291C7D00F54E0B /* SODAGeoBox.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3B41C291C7D00F54E0B /* SODAGeoBox.m */; };
+		E4B8F3F71C291C7D00F54E0B /* SODALocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3B61C291C7D00F54E0B /* SODALocation.m */; };
+		E4B8F3F81C291C7D00F54E0B /* SODAPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3B81C291C7D00F54E0B /* SODAPhone.m */; };
+		E4B8F3F91C291C7D00F54E0B /* SODAUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3BA1C291C7D00F54E0B /* SODAUrl.m */; };
+		E4B8F3FA1C291C7D00F54E0B /* SODAExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3BF1C291C7D00F54E0B /* SODAExpression.m */; };
+		E4B8F3FB1C291C7D00F54E0B /* SODAGroupByClause.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3C11C291C7D00F54E0B /* SODAGroupByClause.m */; };
+		E4B8F3FC1C291C7D00F54E0B /* SODAImmutableClause.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3C31C291C7D00F54E0B /* SODAImmutableClause.m */; };
+		E4B8F3FD1C291C7D00F54E0B /* SODALimitClause.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3C51C291C7D00F54E0B /* SODALimitClause.m */; };
+		E4B8F3FE1C291C7D00F54E0B /* SODAOffsetClause.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3C71C291C7D00F54E0B /* SODAOffsetClause.m */; };
+		E4B8F3FF1C291C7D00F54E0B /* SODAOrderByClause.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3C91C291C7D00F54E0B /* SODAOrderByClause.m */; };
+		E4B8F4001C291C7D00F54E0B /* SODASelectClause.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3CB1C291C7D00F54E0B /* SODASelectClause.m */; };
+		E4B8F4011C291C7D00F54E0B /* SODAWhereClause.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3CD1C291C7D00F54E0B /* SODAWhereClause.m */; };
+		E4B8F4021C291C7D00F54E0B /* SODAQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3CF1C291C7D00F54E0B /* SODAQuery.m */; };
+		E4B8F4031C291C7D00F54E0B /* SODAExpressionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3D21C291C7D00F54E0B /* SODAExpressionUtils.m */; };
+		E4B8F4041C291C7D00F54E0B /* SODANSArrayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3D41C291C7D00F54E0B /* SODANSArrayUtils.m */; };
+		E4B8F4051C291C7D00F54E0B /* SODACallback.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3D61C291C7D00F54E0B /* SODACallback.m */; };
+		E4B8F4061C291C7D00F54E0B /* SODAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3DA1C291C7D00F54E0B /* SODAConsumer.m */; };
+		E4B8F4071C291C7D00F54E0B /* SODADataTypesMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3DC1C291C7D00F54E0B /* SODADataTypesMapper.m */; };
+		E4B8F4081C291C7D00F54E0B /* SODAError.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3DE1C291C7D00F54E0B /* SODAError.m */; };
+		E4B8F4091C291C7D00F54E0B /* SODAResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3E11C291C7D00F54E0B /* SODAResponse.m */; };
+		E4B8F40A1C291C7D00F54E0B /* icn-default-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8F3E41C291C7D00F54E0B /* icn-default-marker.png */; };
+		E4B8F40B1C291C7D00F54E0B /* icn-default-marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8F3E51C291C7D00F54E0B /* icn-default-marker@2x.png */; };
+		E4B8F40C1C291C7D00F54E0B /* SODAMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3E71C291C7D00F54E0B /* SODAMapAnnotation.m */; };
+		E4B8F40D1C291C7D00F54E0B /* SODAMapAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3E91C291C7D00F54E0B /* SODAMapAnnotationView.m */; };
+		E4B8F40E1C291C7D00F54E0B /* SODAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3EB1C291C7D00F54E0B /* SODAMapViewController.m */; };
+		E4B8F40F1C291C7D00F54E0B /* SODATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3EE1C291C7D00F54E0B /* SODATableViewController.m */; };
+		E4B8F4101C291C7D00F54E0B /* SODAIncident.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3F01C291C7D00F54E0B /* SODAIncident.m */; };
+		E4B8F4111C291C7D00F54E0B /* SODAIncidentMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3F21C291C7D00F54E0B /* SODAIncidentMapViewController.m */; };
+		E4B8F4121C291C7D00F54E0B /* SODAIncidentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8F3F41C291C7D00F54E0B /* SODAIncidentTableViewController.m */; };
+		E4B8F4161C291CC000F54E0B /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8F4141C291CC000F54E0B /* 103-map.png */; };
+		E4B8F4171C291CC000F54E0B /* 179-notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8F4151C291CC000F54E0B /* 179-notepad.png */; };
+		E4B8F4191C291CF100F54E0B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B8F4181C291CF100F54E0B /* MapKit.framework */; };
+		E4B8F41B1C291CFE00F54E0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B8F41A1C291CFE00F54E0B /* UIKit.framework */; };
+		E4B8F41D1C291D0800F54E0B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B8F41C1C291D0800F54E0B /* SystemConfiguration.framework */; };
+		E4B8F41F1C291D1100F54E0B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B8F41E1C291D1100F54E0B /* MobileCoreServices.framework */; };
+		E4B8F4211C291D1A00F54E0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B8F4201C291D1A00F54E0B /* Foundation.framework */; };
+		E4B8F4231C291D2200F54E0B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B8F4221C291D2200F54E0B /* CoreLocation.framework */; };
+		E4B8F4251C291D2800F54E0B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B8F4241C291D2800F54E0B /* Security.framework */; };
+		ED6F56B5A319732CA5B5693E /* libPods-SFPD-Incidents.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1EE82F48D9BA68C87B31576 /* libPods-SFPD-Incidents.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3003D06B26A129BF8CBFA451 /* Pods-SFPD-Incidents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFPD-Incidents.release.xcconfig"; path = "Pods/Target Support Files/Pods-SFPD-Incidents/Pods-SFPD-Incidents.release.xcconfig"; sourceTree = "<group>"; };
+		3172ADC718F983E762741F40 /* Pods-SFPD-Incidents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFPD-Incidents.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SFPD-Incidents/Pods-SFPD-Incidents.debug.xcconfig"; sourceTree = "<group>"; };
+		E1EE82F48D9BA68C87B31576 /* libPods-SFPD-Incidents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SFPD-Incidents.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B8F3951C291BD000F54E0B /* SFPD-Incidents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SFPD-Incidents.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B8F3991C291BD000F54E0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4B8F39B1C291BD000F54E0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +69,77 @@
 		E4B8F3A41C291BD000F54E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4B8F3A71C291BD000F54E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4B8F3A91C291BD000F54E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4B8F3B11C291C7D00F54E0B /* SODADocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODADocument.h; sourceTree = "<group>"; };
+		E4B8F3B21C291C7D00F54E0B /* SODADocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODADocument.m; sourceTree = "<group>"; };
+		E4B8F3B31C291C7D00F54E0B /* SODAGeoBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAGeoBox.h; sourceTree = "<group>"; };
+		E4B8F3B41C291C7D00F54E0B /* SODAGeoBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAGeoBox.m; sourceTree = "<group>"; };
+		E4B8F3B51C291C7D00F54E0B /* SODALocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODALocation.h; sourceTree = "<group>"; };
+		E4B8F3B61C291C7D00F54E0B /* SODALocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODALocation.m; sourceTree = "<group>"; };
+		E4B8F3B71C291C7D00F54E0B /* SODAPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAPhone.h; sourceTree = "<group>"; };
+		E4B8F3B81C291C7D00F54E0B /* SODAPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAPhone.m; sourceTree = "<group>"; };
+		E4B8F3B91C291C7D00F54E0B /* SODAUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAUrl.h; sourceTree = "<group>"; };
+		E4B8F3BA1C291C7D00F54E0B /* SODAUrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAUrl.m; sourceTree = "<group>"; };
+		E4B8F3BD1C291C7D00F54E0B /* SODABuildCapable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODABuildCapable.h; sourceTree = "<group>"; };
+		E4B8F3BE1C291C7D00F54E0B /* SODAExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAExpression.h; sourceTree = "<group>"; };
+		E4B8F3BF1C291C7D00F54E0B /* SODAExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAExpression.m; sourceTree = "<group>"; };
+		E4B8F3C01C291C7D00F54E0B /* SODAGroupByClause.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAGroupByClause.h; sourceTree = "<group>"; };
+		E4B8F3C11C291C7D00F54E0B /* SODAGroupByClause.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAGroupByClause.m; sourceTree = "<group>"; };
+		E4B8F3C21C291C7D00F54E0B /* SODAImmutableClause.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAImmutableClause.h; sourceTree = "<group>"; };
+		E4B8F3C31C291C7D00F54E0B /* SODAImmutableClause.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAImmutableClause.m; sourceTree = "<group>"; };
+		E4B8F3C41C291C7D00F54E0B /* SODALimitClause.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODALimitClause.h; sourceTree = "<group>"; };
+		E4B8F3C51C291C7D00F54E0B /* SODALimitClause.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODALimitClause.m; sourceTree = "<group>"; };
+		E4B8F3C61C291C7D00F54E0B /* SODAOffsetClause.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAOffsetClause.h; sourceTree = "<group>"; };
+		E4B8F3C71C291C7D00F54E0B /* SODAOffsetClause.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAOffsetClause.m; sourceTree = "<group>"; };
+		E4B8F3C81C291C7D00F54E0B /* SODAOrderByClause.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAOrderByClause.h; sourceTree = "<group>"; };
+		E4B8F3C91C291C7D00F54E0B /* SODAOrderByClause.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAOrderByClause.m; sourceTree = "<group>"; };
+		E4B8F3CA1C291C7D00F54E0B /* SODASelectClause.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODASelectClause.h; sourceTree = "<group>"; };
+		E4B8F3CB1C291C7D00F54E0B /* SODASelectClause.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODASelectClause.m; sourceTree = "<group>"; };
+		E4B8F3CC1C291C7D00F54E0B /* SODAWhereClause.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAWhereClause.h; sourceTree = "<group>"; };
+		E4B8F3CD1C291C7D00F54E0B /* SODAWhereClause.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAWhereClause.m; sourceTree = "<group>"; };
+		E4B8F3CE1C291C7D00F54E0B /* SODAQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAQuery.h; sourceTree = "<group>"; };
+		E4B8F3CF1C291C7D00F54E0B /* SODAQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAQuery.m; sourceTree = "<group>"; };
+		E4B8F3D11C291C7D00F54E0B /* SODAExpressionUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAExpressionUtils.h; sourceTree = "<group>"; };
+		E4B8F3D21C291C7D00F54E0B /* SODAExpressionUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAExpressionUtils.m; sourceTree = "<group>"; };
+		E4B8F3D31C291C7D00F54E0B /* SODANSArrayUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODANSArrayUtils.h; sourceTree = "<group>"; };
+		E4B8F3D41C291C7D00F54E0B /* SODANSArrayUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODANSArrayUtils.m; sourceTree = "<group>"; };
+		E4B8F3D51C291C7D00F54E0B /* SODACallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODACallback.h; sourceTree = "<group>"; };
+		E4B8F3D61C291C7D00F54E0B /* SODACallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODACallback.m; sourceTree = "<group>"; };
+		E4B8F3D71C291C7D00F54E0B /* SODAClient-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SODAClient-Prefix.pch"; sourceTree = "<group>"; };
+		E4B8F3D81C291C7D00F54E0B /* SODAClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAClient.h; sourceTree = "<group>"; };
+		E4B8F3D91C291C7D00F54E0B /* SODAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAConsumer.h; sourceTree = "<group>"; };
+		E4B8F3DA1C291C7D00F54E0B /* SODAConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAConsumer.m; sourceTree = "<group>"; };
+		E4B8F3DB1C291C7D00F54E0B /* SODADataTypesMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODADataTypesMapper.h; sourceTree = "<group>"; };
+		E4B8F3DC1C291C7D00F54E0B /* SODADataTypesMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODADataTypesMapper.m; sourceTree = "<group>"; };
+		E4B8F3DD1C291C7D00F54E0B /* SODAError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAError.h; sourceTree = "<group>"; };
+		E4B8F3DE1C291C7D00F54E0B /* SODAError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAError.m; sourceTree = "<group>"; };
+		E4B8F3DF1C291C7D00F54E0B /* SODAPropertyMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAPropertyMapping.h; sourceTree = "<group>"; };
+		E4B8F3E01C291C7D00F54E0B /* SODAResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAResponse.h; sourceTree = "<group>"; };
+		E4B8F3E11C291C7D00F54E0B /* SODAResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAResponse.m; sourceTree = "<group>"; };
+		E4B8F3E41C291C7D00F54E0B /* icn-default-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn-default-marker.png"; sourceTree = "<group>"; };
+		E4B8F3E51C291C7D00F54E0B /* icn-default-marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn-default-marker@2x.png"; sourceTree = "<group>"; };
+		E4B8F3E61C291C7D00F54E0B /* SODAMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAMapAnnotation.h; sourceTree = "<group>"; };
+		E4B8F3E71C291C7D00F54E0B /* SODAMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAMapAnnotation.m; sourceTree = "<group>"; };
+		E4B8F3E81C291C7D00F54E0B /* SODAMapAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAMapAnnotationView.h; sourceTree = "<group>"; };
+		E4B8F3E91C291C7D00F54E0B /* SODAMapAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAMapAnnotationView.m; sourceTree = "<group>"; };
+		E4B8F3EA1C291C7D00F54E0B /* SODAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAMapViewController.h; sourceTree = "<group>"; };
+		E4B8F3EB1C291C7D00F54E0B /* SODAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAMapViewController.m; sourceTree = "<group>"; };
+		E4B8F3ED1C291C7D00F54E0B /* SODATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODATableViewController.h; sourceTree = "<group>"; };
+		E4B8F3EE1C291C7D00F54E0B /* SODATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODATableViewController.m; sourceTree = "<group>"; };
+		E4B8F3EF1C291C7D00F54E0B /* SODAIncident.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAIncident.h; sourceTree = "<group>"; };
+		E4B8F3F01C291C7D00F54E0B /* SODAIncident.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAIncident.m; sourceTree = "<group>"; };
+		E4B8F3F11C291C7D00F54E0B /* SODAIncidentMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAIncidentMapViewController.h; sourceTree = "<group>"; };
+		E4B8F3F21C291C7D00F54E0B /* SODAIncidentMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAIncidentMapViewController.m; sourceTree = "<group>"; };
+		E4B8F3F31C291C7D00F54E0B /* SODAIncidentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SODAIncidentTableViewController.h; sourceTree = "<group>"; };
+		E4B8F3F41C291C7D00F54E0B /* SODAIncidentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SODAIncidentTableViewController.m; sourceTree = "<group>"; };
+		E4B8F4141C291CC000F54E0B /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map.png"; sourceTree = "<group>"; };
+		E4B8F4151C291CC000F54E0B /* 179-notepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "179-notepad.png"; sourceTree = "<group>"; };
+		E4B8F4181C291CF100F54E0B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E4B8F41A1C291CFE00F54E0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4B8F41C1C291D0800F54E0B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E4B8F41E1C291D1100F54E0B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E4B8F4201C291D1A00F54E0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4B8F4221C291D2200F54E0B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E4B8F4241C291D2800F54E0B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +147,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4B8F4251C291D2800F54E0B /* Security.framework in Frameworks */,
+				E4B8F4231C291D2200F54E0B /* CoreLocation.framework in Frameworks */,
+				E4B8F4211C291D1A00F54E0B /* Foundation.framework in Frameworks */,
+				E4B8F41F1C291D1100F54E0B /* MobileCoreServices.framework in Frameworks */,
+				E4B8F41D1C291D0800F54E0B /* SystemConfiguration.framework in Frameworks */,
+				E4B8F41B1C291CFE00F54E0B /* UIKit.framework in Frameworks */,
+				E4B8F4191C291CF100F54E0B /* MapKit.framework in Frameworks */,
+				ED6F56B5A319732CA5B5693E /* libPods-SFPD-Incidents.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EB3BFD731EE0AF2F7C1AEC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4B8F4241C291D2800F54E0B /* Security.framework */,
+				E4B8F4221C291D2200F54E0B /* CoreLocation.framework */,
+				E4B8F4201C291D1A00F54E0B /* Foundation.framework */,
+				E4B8F41E1C291D1100F54E0B /* MobileCoreServices.framework */,
+				E4B8F41C1C291D0800F54E0B /* SystemConfiguration.framework */,
+				E4B8F41A1C291CFE00F54E0B /* UIKit.framework */,
+				E4B8F4181C291CF100F54E0B /* MapKit.framework */,
+				E1EE82F48D9BA68C87B31576 /* libPods-SFPD-Incidents.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D412D88BDA816E68B8216A1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3172ADC718F983E762741F40 /* Pods-SFPD-Incidents.debug.xcconfig */,
+				3003D06B26A129BF8CBFA451 /* Pods-SFPD-Incidents.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E4B8F38C1C291BD000F54E0B = {
 			isa = PBXGroup;
 			children = (
 				E4B8F3971C291BD000F54E0B /* SFPD-Incidents */,
 				E4B8F3961C291BD000F54E0B /* Products */,
+				D412D88BDA816E68B8216A1A /* Pods */,
+				4EB3BFD731EE0AF2F7C1AEC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +206,19 @@
 		E4B8F3971C291BD000F54E0B /* SFPD-Incidents */ = {
 			isa = PBXGroup;
 			children = (
+				E4B8F4131C291CB400F54E0B /* Resources */,
 				E4B8F39B1C291BD000F54E0B /* AppDelegate.h */,
 				E4B8F39C1C291BD000F54E0B /* AppDelegate.m */,
 				E4B8F39E1C291BD000F54E0B /* ViewController.h */,
 				E4B8F39F1C291BD000F54E0B /* ViewController.m */,
 				E4B8F3A11C291BD000F54E0B /* Main.storyboard */,
+				E4B8F3AF1C291C7D00F54E0B /* SODAClient */,
+				E4B8F3EF1C291C7D00F54E0B /* SODAIncident.h */,
+				E4B8F3F01C291C7D00F54E0B /* SODAIncident.m */,
+				E4B8F3F11C291C7D00F54E0B /* SODAIncidentMapViewController.h */,
+				E4B8F3F21C291C7D00F54E0B /* SODAIncidentMapViewController.m */,
+				E4B8F3F31C291C7D00F54E0B /* SODAIncidentTableViewController.h */,
+				E4B8F3F41C291C7D00F54E0B /* SODAIncidentTableViewController.m */,
 				E4B8F3A41C291BD000F54E0B /* Assets.xcassets */,
 				E4B8F3A61C291BD000F54E0B /* LaunchScreen.storyboard */,
 				E4B8F3A91C291BD000F54E0B /* Info.plist */,
@@ -79,6 +235,134 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E4B8F3AF1C291C7D00F54E0B /* SODAClient */ = {
+			isa = PBXGroup;
+			children = (
+				E4B8F3B01C291C7D00F54E0B /* DataTypes */,
+				E4B8F3D51C291C7D00F54E0B /* SODACallback.h */,
+				E4B8F3D61C291C7D00F54E0B /* SODACallback.m */,
+				E4B8F3D71C291C7D00F54E0B /* SODAClient-Prefix.pch */,
+				E4B8F3D81C291C7D00F54E0B /* SODAClient.h */,
+				E4B8F3D91C291C7D00F54E0B /* SODAConsumer.h */,
+				E4B8F3DA1C291C7D00F54E0B /* SODAConsumer.m */,
+				E4B8F3DB1C291C7D00F54E0B /* SODADataTypesMapper.h */,
+				E4B8F3DC1C291C7D00F54E0B /* SODADataTypesMapper.m */,
+				E4B8F3DD1C291C7D00F54E0B /* SODAError.h */,
+				E4B8F3DE1C291C7D00F54E0B /* SODAError.m */,
+				E4B8F3DF1C291C7D00F54E0B /* SODAPropertyMapping.h */,
+				E4B8F3E01C291C7D00F54E0B /* SODAResponse.h */,
+				E4B8F3E11C291C7D00F54E0B /* SODAResponse.m */,
+				E4B8F3E21C291C7D00F54E0B /* UI */,
+			);
+			path = SODAClient;
+			sourceTree = "<group>";
+		};
+		E4B8F3B01C291C7D00F54E0B /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				E4B8F3B11C291C7D00F54E0B /* SODADocument.h */,
+				E4B8F3B21C291C7D00F54E0B /* SODADocument.m */,
+				E4B8F3B31C291C7D00F54E0B /* SODAGeoBox.h */,
+				E4B8F3B41C291C7D00F54E0B /* SODAGeoBox.m */,
+				E4B8F3B51C291C7D00F54E0B /* SODALocation.h */,
+				E4B8F3B61C291C7D00F54E0B /* SODALocation.m */,
+				E4B8F3B71C291C7D00F54E0B /* SODAPhone.h */,
+				E4B8F3B81C291C7D00F54E0B /* SODAPhone.m */,
+				E4B8F3B91C291C7D00F54E0B /* SODAUrl.h */,
+				E4B8F3BA1C291C7D00F54E0B /* SODAUrl.m */,
+				E4B8F3BB1C291C7D00F54E0B /* SOQL */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		E4B8F3BB1C291C7D00F54E0B /* SOQL */ = {
+			isa = PBXGroup;
+			children = (
+				E4B8F3BC1C291C7D00F54E0B /* Clauses */,
+				E4B8F3CE1C291C7D00F54E0B /* SODAQuery.h */,
+				E4B8F3CF1C291C7D00F54E0B /* SODAQuery.m */,
+				E4B8F3D01C291C7D00F54E0B /* Utils */,
+			);
+			path = SOQL;
+			sourceTree = "<group>";
+		};
+		E4B8F3BC1C291C7D00F54E0B /* Clauses */ = {
+			isa = PBXGroup;
+			children = (
+				E4B8F3BD1C291C7D00F54E0B /* SODABuildCapable.h */,
+				E4B8F3BE1C291C7D00F54E0B /* SODAExpression.h */,
+				E4B8F3BF1C291C7D00F54E0B /* SODAExpression.m */,
+				E4B8F3C01C291C7D00F54E0B /* SODAGroupByClause.h */,
+				E4B8F3C11C291C7D00F54E0B /* SODAGroupByClause.m */,
+				E4B8F3C21C291C7D00F54E0B /* SODAImmutableClause.h */,
+				E4B8F3C31C291C7D00F54E0B /* SODAImmutableClause.m */,
+				E4B8F3C41C291C7D00F54E0B /* SODALimitClause.h */,
+				E4B8F3C51C291C7D00F54E0B /* SODALimitClause.m */,
+				E4B8F3C61C291C7D00F54E0B /* SODAOffsetClause.h */,
+				E4B8F3C71C291C7D00F54E0B /* SODAOffsetClause.m */,
+				E4B8F3C81C291C7D00F54E0B /* SODAOrderByClause.h */,
+				E4B8F3C91C291C7D00F54E0B /* SODAOrderByClause.m */,
+				E4B8F3CA1C291C7D00F54E0B /* SODASelectClause.h */,
+				E4B8F3CB1C291C7D00F54E0B /* SODASelectClause.m */,
+				E4B8F3CC1C291C7D00F54E0B /* SODAWhereClause.h */,
+				E4B8F3CD1C291C7D00F54E0B /* SODAWhereClause.m */,
+			);
+			path = Clauses;
+			sourceTree = "<group>";
+		};
+		E4B8F3D01C291C7D00F54E0B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E4B8F3D11C291C7D00F54E0B /* SODAExpressionUtils.h */,
+				E4B8F3D21C291C7D00F54E0B /* SODAExpressionUtils.m */,
+				E4B8F3D31C291C7D00F54E0B /* SODANSArrayUtils.h */,
+				E4B8F3D41C291C7D00F54E0B /* SODANSArrayUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E4B8F3E21C291C7D00F54E0B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E4B8F3E31C291C7D00F54E0B /* Map */,
+				E4B8F3EC1C291C7D00F54E0B /* Table */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E4B8F3E31C291C7D00F54E0B /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E4B8F3E41C291C7D00F54E0B /* icn-default-marker.png */,
+				E4B8F3E51C291C7D00F54E0B /* icn-default-marker@2x.png */,
+				E4B8F3E61C291C7D00F54E0B /* SODAMapAnnotation.h */,
+				E4B8F3E71C291C7D00F54E0B /* SODAMapAnnotation.m */,
+				E4B8F3E81C291C7D00F54E0B /* SODAMapAnnotationView.h */,
+				E4B8F3E91C291C7D00F54E0B /* SODAMapAnnotationView.m */,
+				E4B8F3EA1C291C7D00F54E0B /* SODAMapViewController.h */,
+				E4B8F3EB1C291C7D00F54E0B /* SODAMapViewController.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		E4B8F3EC1C291C7D00F54E0B /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				E4B8F3ED1C291C7D00F54E0B /* SODATableViewController.h */,
+				E4B8F3EE1C291C7D00F54E0B /* SODATableViewController.m */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		E4B8F4131C291CB400F54E0B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E4B8F4141C291CC000F54E0B /* 103-map.png */,
+				E4B8F4151C291CC000F54E0B /* 179-notepad.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +370,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4B8F3AC1C291BD000F54E0B /* Build configuration list for PBXNativeTarget "SFPD-Incidents" */;
 			buildPhases = (
+				C2BFD598F655B12631B32761 /* Check Pods Manifest.lock */,
 				E4B8F3911C291BD000F54E0B /* Sources */,
 				E4B8F3921C291BD000F54E0B /* Frameworks */,
 				E4B8F3931C291BD000F54E0B /* Resources */,
+				B610F6D46E9858B1E0B4C872 /* Embed Pods Frameworks */,
+				58C0A995BA9DFA29A411185F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,6 +423,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4B8F40B1C291C7D00F54E0B /* icn-default-marker@2x.png in Resources */,
+				E4B8F4161C291CC000F54E0B /* 103-map.png in Resources */,
+				E4B8F40A1C291C7D00F54E0B /* icn-default-marker.png in Resources */,
+				E4B8F4171C291CC000F54E0B /* 179-notepad.png in Resources */,
 				E4B8F3A81C291BD000F54E0B /* LaunchScreen.storyboard in Resources */,
 				E4B8F3A51C291BD000F54E0B /* Assets.xcassets in Resources */,
 				E4B8F3A31C291BD000F54E0B /* Main.storyboard in Resources */,
@@ -144,14 +435,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58C0A995BA9DFA29A411185F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SFPD-Incidents/Pods-SFPD-Incidents-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B610F6D46E9858B1E0B4C872 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SFPD-Incidents/Pods-SFPD-Incidents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2BFD598F655B12631B32761 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4B8F3911C291BD000F54E0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4B8F3F61C291C7D00F54E0B /* SODAGeoBox.m in Sources */,
+				E4B8F3FA1C291C7D00F54E0B /* SODAExpression.m in Sources */,
+				E4B8F40E1C291C7D00F54E0B /* SODAMapViewController.m in Sources */,
+				E4B8F4031C291C7D00F54E0B /* SODAExpressionUtils.m in Sources */,
+				E4B8F4071C291C7D00F54E0B /* SODADataTypesMapper.m in Sources */,
+				E4B8F4121C291C7D00F54E0B /* SODAIncidentTableViewController.m in Sources */,
+				E4B8F4081C291C7D00F54E0B /* SODAError.m in Sources */,
+				E4B8F40F1C291C7D00F54E0B /* SODATableViewController.m in Sources */,
+				E4B8F3FE1C291C7D00F54E0B /* SODAOffsetClause.m in Sources */,
+				E4B8F4111C291C7D00F54E0B /* SODAIncidentMapViewController.m in Sources */,
+				E4B8F3F71C291C7D00F54E0B /* SODALocation.m in Sources */,
+				E4B8F4091C291C7D00F54E0B /* SODAResponse.m in Sources */,
+				E4B8F4051C291C7D00F54E0B /* SODACallback.m in Sources */,
+				E4B8F3FD1C291C7D00F54E0B /* SODALimitClause.m in Sources */,
+				E4B8F3FF1C291C7D00F54E0B /* SODAOrderByClause.m in Sources */,
 				E4B8F3A01C291BD000F54E0B /* ViewController.m in Sources */,
+				E4B8F3FB1C291C7D00F54E0B /* SODAGroupByClause.m in Sources */,
+				E4B8F4001C291C7D00F54E0B /* SODASelectClause.m in Sources */,
+				E4B8F40C1C291C7D00F54E0B /* SODAMapAnnotation.m in Sources */,
+				E4B8F4021C291C7D00F54E0B /* SODAQuery.m in Sources */,
 				E4B8F39D1C291BD000F54E0B /* AppDelegate.m in Sources */,
+				E4B8F40D1C291C7D00F54E0B /* SODAMapAnnotationView.m in Sources */,
+				E4B8F4041C291C7D00F54E0B /* SODANSArrayUtils.m in Sources */,
+				E4B8F3FC1C291C7D00F54E0B /* SODAImmutableClause.m in Sources */,
+				E4B8F4011C291C7D00F54E0B /* SODAWhereClause.m in Sources */,
 				E4B8F39A1C291BD000F54E0B /* main.m in Sources */,
+				E4B8F3F81C291C7D00F54E0B /* SODAPhone.m in Sources */,
+				E4B8F4101C291C7D00F54E0B /* SODAIncident.m in Sources */,
+				E4B8F4061C291C7D00F54E0B /* SODAConsumer.m in Sources */,
+				E4B8F3F91C291C7D00F54E0B /* SODAUrl.m in Sources */,
+				E4B8F3F51C291C7D00F54E0B /* SODADocument.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +628,10 @@
 		};
 		E4B8F3AD1C291BD000F54E0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3172ADC718F983E762741F40 /* Pods-SFPD-Incidents.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "SFPD-Incidents/SODAClient/SODAClient-Prefix.pch";
 				INFOPLIST_FILE = "SFPD-Incidents/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.SFPD-Incidents";
@@ -272,8 +641,10 @@
 		};
 		E4B8F3AE1C291BD000F54E0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3003D06B26A129BF8CBFA451 /* Pods-SFPD-Incidents.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "SFPD-Incidents/SODAClient/SODAClient-Prefix.pch";
 				INFOPLIST_FILE = "SFPD-Incidents/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.SFPD-Incidents";
@@ -300,6 +671,7 @@
 				E4B8F3AE1C291BD000F54E0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

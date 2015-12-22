@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "SODAIncidentTableViewController.h"
+#import "SODAIncidentMapViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,28 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+    SODAIncidentTableViewController *incidentTableVC = [[SODAIncidentTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    SODAIncidentMapViewController *incidentMapVC = [[SODAIncidentMapViewController alloc] init];
+
+    UINavigationController *tableNavigationController = [[UINavigationController alloc]
+                                                         initWithRootViewController:incidentTableVC];
+    tableNavigationController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Table View"
+                                                                         image:[UIImage imageNamed:@"179-notepad"]
+                                                                           tag:0];
+    UINavigationController *mapNavigationController = [[UINavigationController alloc]
+                                                       initWithRootViewController:incidentMapVC];
+    mapNavigationController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Map View"
+                                                                       image:[UIImage imageNamed:@"103-map"]
+                                                                         tag:1];
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[tableNavigationController, mapNavigationController];
+
+    [self.window setRootViewController:tabBarController];
+    [self.window makeKeyAndVisible];
+
+
     return YES;
 }
 
